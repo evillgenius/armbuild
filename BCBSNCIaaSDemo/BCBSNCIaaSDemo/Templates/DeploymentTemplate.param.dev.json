@@ -1,0 +1,57 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "coudf893ejv"
+    },
+    "adminUsername": {
+      "value": "edvilla"
+    },
+    "adminPassword": {
+      "value": "Aikido75"
+    },
+    "dnsNameforLBIP": {
+      "value": "coudf893"
+    },
+    "location": {
+      "value": "East US"
+    },
+    "virtualNetworkName": {
+      "value": "First_ARM_VNet"
+    },
+    "addressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "FESubnetPrefix": {
+      "value": "10.0.0.0/24"
+    },
+    "AppSubnetPrefix": {
+      "value": "10.0.1.0/24"
+    },
+    "DBSubnetPrefix": {
+      "value": "10.0.2.0/24"
+    },
+    "FENSGName": {
+      "value": "fensg"
+    },
+    "AppNSGName": {
+      "value": "appnsg"
+    },
+    "DBNSGName": {
+      "value": "dbnsg"
+    },
+    "FESubnetName": {
+      "value": "fensg"
+    },
+    "AppSubnetName": {
+      "value": "appnsg"
+    },
+    "DBSubnetName": {
+      "value": "dbnsg"
+    },
+      "vmSize": {
+          "value": "Standard_A2"
+      }
+  }
+}
